@@ -1,4 +1,4 @@
-package com.bk.karam.bkkaramshare;
+package com.bk.karam;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
