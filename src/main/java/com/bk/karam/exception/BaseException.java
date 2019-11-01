@@ -8,7 +8,7 @@ import lombok.Data;
  * 基础异常封装
  */
 @Data
-public abstract class BaseException extends Exception{
+public class BaseException extends Exception{
 
     private static final long serialVersionUID = 8540595639814874244L;
 

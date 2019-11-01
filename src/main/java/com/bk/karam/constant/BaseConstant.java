@@ -87,4 +87,12 @@ public final class BaseConstant {
      public static final boolean ISONLINEWITHMULTIPLEEND = false;
 
      public static final String PASSWORD_REGEX = "^(?![0-9]*$)(?![a-zA-Z]*$)[a-zA-Z0-9]{6,16}$";
+
+     public static final String KEY_NULL = "key为空" ;
+
+     public static final String VALUE_NULL = "value 缓存数据为空" ;
+
+     public static final String REDIS_CONNECT_ERROR = "redis contect link is null" ;
+
+     public static final String REDIS_CLOSE_ERROR = "closeJedis is error" ;
 }
