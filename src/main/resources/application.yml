@@ -1,1 +1,8 @@
+server:
+port: 8080 #端口
 
+spring:
+  profiles:
+    active: ${DEPLOY_ENV} # 环境配置
+  application:
+    name: jk-pay-web #项目名
